@@ -1,0 +1,27 @@
+#include <stdio.h>
+int main()
+{
+int m,l,r,a[100],n=6,key,flag=0;
+int i;
+for(i=0;i<n;i++)
+{
+printf("enter the elements of an array: ");
+scanf("%d",&a[i]);
+printf("Enter the value of key :");
+r=0;
+r=n-1;
+while(r>=f)
+{
+m=(r+f)/2;
+if(a[m]==key)
+{
+printf("Element is found at %d",m);}
+flag=1;
+break;
+if(a[m]>key)
+r=m-1;
+if(a[m]<key)
+f=m+1;
+}
+if(flag=0)
+printf("Error";)
